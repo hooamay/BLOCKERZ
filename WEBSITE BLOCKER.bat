@@ -21,17 +21,17 @@ set "hostspath=%SystemRoot%\System32\drivers\etc\hosts"
 cls
 call :BANNER
 echo.
-echo 1. Block a website
-echo 2. Unblock a website  
-echo 3. Show blocked websites
-echo 4. Backup hosts file
-echo 5. Restore hosts file
-echo 6. Clear all blocks
-echo 7. Exit
+echo [1] Block a website
+echo [2] Unblock a website  
+echo [3] Show blocked websites
+echo [4] Backup hosts file
+echo [5] Restore hosts file
+echo [6] Clear all blocks
+echo [7] Exit
 echo.
 echo Type '--help' for usage guide and tips
 echo.
-set /p choice=Select option (1-7 or --help): 
+set /p choice=Select option (1-7): 
 if /i "%choice%"=="1" goto BLOCK
 if /i "%choice%"=="2" goto UNBLOCK
 if /i "%choice%"=="3" goto SHOW
