@@ -78,9 +78,9 @@ This tool edits the Windows system hosts file. Misuse may cause connectivity iss
 
 ---
 
-## 🧑‍💻 Developer
+## Developer
 
-> Developed by **whoami**  
+> Developed by **huwamee**  
 > 2025 © MIT Licensed  
 > Contributions welcome — fork, modify, and improve!
 
