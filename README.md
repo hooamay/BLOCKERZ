@@ -2,7 +2,7 @@
   <img src="browser.png" alt="Website Blocker Logo" width="80" />
 </p>
 
-<h1 align="center">Website Blocker v2.0</h1>
+<h1 align="center">Website Blocker v2.1</h1>
 
 <p align="center">
   A powerful Windows batch script that blocks and unblocks websites using the <code>hosts</code> file.<br>
