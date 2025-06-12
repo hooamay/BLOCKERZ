@@ -12,18 +12,6 @@ if '%errorlevel%' NEQ '0' (
 chcp 65001 >nul
 setlocal enabledelayedexpansion
 
-:: Check for admin privileges
-call :BANNER
-net session >nul 2>&1
-if %errorlevel% neq 0 (
-    echo.
-    echo This script requires administrator privileges.
-    echo Please run as administrator.
-    echo.
-    pause
-    exit /b 1
-)
-
 :: Set hosts file path
 set "hostspath=%SystemRoot%\System32\drivers\etc\hosts"
 
