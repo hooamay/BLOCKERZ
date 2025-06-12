@@ -29,7 +29,7 @@ echo [5] Restore hosts file
 echo [6] Clear all blocks
 echo [7] Exit
 echo.
-echo Type '--help' for usage guide and tips
+echo Type '--help, help, -h, h' for usage guide and tips
 echo.
 set /p choice=Select option (1-7): 
 if /i "%choice%"=="1" goto BLOCK
@@ -45,7 +45,8 @@ if /i "%choice%"=="--help" goto HELP
 if /i "%choice%"=="help" goto HELP
 if /i "%choice%"=="-h" goto HELP
 if /i "%choice%"=="h" goto HELP
-echo [!] Invalid option. Please try again.
+echo.
+echo Invalid option. Please try again.
 timeout /t 2 >nul
 goto MENU
 
